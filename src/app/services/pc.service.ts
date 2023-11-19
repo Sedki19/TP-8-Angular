@@ -15,9 +15,9 @@ export class pcService {
   constructor() {
     this.oss = [{ idOs: 1, nomOs: "Free Dos" },
     { idOs: 2, nomOs: "Windows 7" },
-    { idOs: 2, nomOs: "Windows 8" },
-    { idOs: 2, nomOs: "Windows 10" },
-    { idOs: 2, nomOs: "Windows 11" }];
+    { idOs: 3, nomOs: "Windows 8" },
+    { idOs: 4, nomOs: "Windows 10" },
+    { idOs: 5, nomOs: "Windows 11" }];
 
     this.pcs = [{ idpc: 1, nompc: "MSI GF 63", prixpc: 2000, Specs: "CPU : I5 11eme gen / GPU : GEOFORCE GT710 / 8GB RAM ", os: { idOs: 1, nomOs: "Free DOS" } },
     { idpc: 2, nompc: "HP ProBook G9", prixpc: 1400, Specs: "CPU : Rayzen 5 / GPU : GEOFORCE GTx1650 / 16GB RAM", os: { idOs: 2, nomOs: "Windows 7" } },
